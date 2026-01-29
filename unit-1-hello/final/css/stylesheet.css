@@ -42,3 +42,10 @@ body {
   background-color: #f1f1f1;
   padding: 10px;
 }
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
