@@ -2,33 +2,118 @@
 <html>
 <head>
 	<title>kat's site!</title>
-	<link rel="stylesheet" href="https://katjurd.github.io/cwd/unit-1-hello/final/css/stylesheet.css">
-	<!-- Work done alognside W3Schools tutorials. -->
+	<link rel="stylesheet" href="https://katjurd.github.io/cwd/unit-1-hello/final/css/styles.css">
+	<!-- Work done alongside W3Schools tutorials and previous HTML/CSS work. -->
 </head>
 <body>
-	<div class="topnav">
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__layout">
+                <a href="index.html" class="nav__brand">
+                <img src='../images/icon.png' class="img__brand"/>
+                PHP Diary
+                </a>
+                <div class="nav__layout--buttons">
+                    <a href="https://canvas.umw.edu/courses/1579550" class="button">
+                    <img src='../images/book-bookmark.svg' class="img__button"/>
+                        CPSC 430
+                    </a>
+                    <a href="form.html" class="button">
+                    <img src='../images/pencil.svg' class="img__button"/>
+                        New entry
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="container">
+        <h1 class="main-heading">Entries</h1>
+        <div class="card">
+            <div class="card__image-container">
+                <img class="card__image" src="/../images/card-1.jpg"/>
+            </div>
+            <div class="card__desc-container">
+                <div class="card__desc-time">Week 1</div>
+                <h2 class="card__heading">Learning PHP</h2>
+                <p class="card__paragraph">
+                    The sun dipped below the horizon, casting a warm golden glow over the tranquil lake. The water shimmered like a thousand diamonds, reflecting the hues of orange and pink that painted the sky. A gentle breeze rustled the leaves of the nearby trees, creating a soothing melody that echoed through the quiet evening. In that moment, time seemed to stand still, inviting anyone who witnessed it to pause and appreciate the beauty of nature.
+                </p>
+            </div>
+        </div>
 
-		<a href="#">Link</a>
-		<a href="#">Link</a>
-		<a href="#">Link</a>
-	</div>
+        <div class="card">
+            <div class="card__image-container">
+                <img class="card__image" src="/../images/card-2.jpg"/>
+            </div>
+            <div class="card__desc-container">
+                <div class="card__desc-time">Week 1</div>
+                <h2 class="card__heading">Learning PHP</h2>
+                <p class="card__paragraph">
+                    The sun dipped below the horizon, casting a warm golden glow over the tranquil lake. The water shimmered like a thousand diamonds, reflecting the hues of orange and pink that painted the sky. A gentle breeze rustled the leaves of the nearby trees, creating a soothing melody that echoed through the quiet evening. In that moment, time seemed to stand still, inviting anyone who witnessed it to pause and appreciate the beauty of nature.
+                </p>
+            </div>
+        </div>
 
-	<div class="iframe-container">
-		<iframe src="https://www.youtube.com/watch?v=2b9BpunsVmo"></iframe>
-	</div>
+                <div class="card">
+            <div class="card__image-container">
+                <img class="card__image" src="/../images/card-3.jpg"/>
+            </div>
+            <div class="card__desc-container">
+                <div class="card__desc-time">Week 1</div>
+                <h2 class="card__heading">Learning PHP</h2>
+                <p class="card__paragraph">
+                    The sun dipped below the horizon, casting a warm golden glow over the tranquil lake. The water shimmered like a thousand diamonds, reflecting the hues of orange and pink that painted the sky. A gentle breeze rustled the leaves of the nearby trees, creating a soothing melody that echoed through the quiet evening. In that moment, time seemed to stand still, inviting anyone who witnessed it to pause and appreciate the beauty of nature.
+                </p>
+            </div>
+        </div>
 
-	<p>A topnav, content, and a footer.</p>
+                <div class="card">
+            <div class="card__image-container">
+                <img class="card__image" src="/../images/card-4.jpg"/>
+            </div>
+            <div class="card__desc-container">
+                <div class="card__desc-time">Week 1</div>
+                <h2 class="card__heading">Learning PHP</h2>
+                <p class="card__paragraph">
+                    The sun dipped below the horizon, casting a warm golden glow over the tranquil lake. The water shimmered like a thousand diamonds, reflecting the hues of orange and pink that painted the sky. A gentle breeze rustled the leaves of the nearby trees, creating a soothing melody that echoed through the quiet evening. In that moment, time seemed to stand still, inviting anyone who witnessed it to pause and appreciate the beauty of nature.
+                </p>
+            </div>
+        </div>
+        </div>
 
-	<div class="footer">
-		<p>A footer.</p>
-	</div>
+        <ul class="pagination">
+            <li class="pagination__li">
+                <a class="pagination__link" href="#">←</a>
+            </li>
+            <li class="pagination__li">
+                <a class="pagination__link pagination__link--active" href="#">1</a>
+            </li>
+            <li class="pagination__li">
+                <a class="pagination__link" href="#">2</a>
+            </li>
+            <li class="pagination__li">
+                <a class="pagination__link" href="#">3</a>
+            </li>
+            <li class="pagination__li">
+                <a class="pagination__link" href="#">→</a>
+            </li>
+        </ul>
+    </main>
 
-	        <!-- webring embed code -->
-		<!-- need to bring in onionring.css. fix later -->
-        <div id="webring">
-        <script type="text/javascript" src="https://zachwhalen.github.io/cwd-hub/ring/onionring-variables.js"></script>
-        <script type="text/javascript" src="https://zachwhalen.github.io/cwd-hub/ring/onionring-widget.js"></script>
-		</div>
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer__heading">PHP Diary Project</h3>
+            <p class="footer__desc">More sample text here. This is to showcase how a paragraph would look in this section. Adjust as needed.</p>
+			<!-- webring embed code -->
+			<!-- need to bring in onionring.css. fix later -->
+        	<div id="webring">
+        	<script type="text/javascript" src="https://zachwhalen.github.io/cwd-hub/ring/onionring-variables.js"></script>
+        	<script type="text/javascript" src="https://zachwhalen.github.io/cwd-hub/ring/onionring-widget.js"></script>
+			</div>
+        </div>
+    </footer>
+	        
 
 </body>
 </html>
