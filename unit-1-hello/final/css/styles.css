@@ -16,24 +16,20 @@ body {
 .nav {
     background-color: #113343;
     height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav__left {
+.nav__left, .nav__right {
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
 .nav__middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav__right {
-    display: inline-block;
-    justify-content: right;
-    align-items: center;
+    flex: 1 0 0;
+    text-align: center;
 }
 
 .nav__brand {
@@ -45,8 +41,8 @@ body {
 }
 
 .img__brand {
-    width: 3rem;
-    height: 3.5rem;
+    width: 6rem;
+    height: 6rem;
     vertical-align: bottom;
 }
 
