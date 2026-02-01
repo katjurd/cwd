@@ -36,6 +36,13 @@ body {
     margin: auto;
 }
 
+.sub-heading {
+    text-align: center;
+    justify-content: center;
+    height: 5rem;
+    text-shadow: yellow;
+}
+
 .container {
   display: grid;
   grid-template-areas:
