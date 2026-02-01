@@ -1,5 +1,9 @@
+.html {
+    background-image: url('/unit-1-hello/assets/galaxy-bg.jpg');
+}
+
+
 .top {
-    background-image: url("/unit-1-hello/assets/galaxy-bg.jpg");
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -28,6 +32,7 @@
     padding-top: 3%;
     box-sizing: border-box;
     margin: auto;
+    color: rgb(206, 153, 255);
 }
 
 .container {
