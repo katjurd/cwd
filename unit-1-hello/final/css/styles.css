@@ -18,15 +18,21 @@ body {
     height: 4rem;
 }
 
-.nav__layout {
+.nav__left {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
 }
 
-.nav__layout--buttons {
-    display: inline-block;
+.nav__middle {
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.nav__right {
+    display: inline-block;
+    justify-content: right;
     align-items: center;
 }
 
