@@ -1,5 +1,6 @@
-.html {
+body {
     background-image: url('/unit-1-hello/assets/galaxy-bg.jpg');
+    background-color: azure;
 }
 
 
@@ -10,10 +11,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(206, 153, 255);
     height: 100%;
     max-height: 80px;
     z-index: -1;
+    color: #000;
 }
 
 .logo {
@@ -32,7 +34,6 @@
     padding-top: 3%;
     box-sizing: border-box;
     margin: auto;
-    color: rgb(206, 153, 255);
 }
 
 .container {
