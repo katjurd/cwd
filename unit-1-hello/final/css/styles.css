@@ -1,5 +1,6 @@
 .top {
     background-image: url("");
+    position: sticky;
     top: 0;
     overflow: hidden;
     display: flex;
@@ -19,7 +20,14 @@
 
 .title {
     position: absolute;
-    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 60%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .container {
