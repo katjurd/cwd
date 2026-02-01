@@ -1,8 +1,25 @@
-.main-heading {
-    background-color: blueviolet;
-    display: block;
-    align-items: center;
+.top {
+    background-image: url("");
+    top: 0;
+    overflow: hidden;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100%;
+    max-height: 80px;
+    z-index: -1;
+}
+
+.logo {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 90%;
+}
+
+.title {
+    position: absolute;
+    color: blueviolet;
 }
 
 .container {
