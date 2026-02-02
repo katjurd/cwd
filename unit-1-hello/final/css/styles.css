@@ -1,6 +1,9 @@
-body {
-    background-image: url('/unit-1-hello/assets/galaxy-1-bg.jpg');
+.body {
+    background-image: url('/../cwd/unit-1-hello/assets/galaxy-bg.jpg');
     background-color: rgb(97, 9, 152);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
