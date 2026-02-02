@@ -73,7 +73,7 @@ h2 {
   text-align: right;
 }
 
-.header__image {
+img.header__image {
     height: 100%;
     width: 75%;
 }
