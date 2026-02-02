@@ -41,7 +41,7 @@ h1 {
     text-shadow: yellow;
 }
 
-.containers {
+.container {
   display: grid;
   grid-template-areas:
     "header header"
@@ -50,7 +50,6 @@ h1 {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   grid-gap: 20px;
-  background-color: rgb(191, 148, 231);
 }
 
 .left-container {
@@ -82,7 +81,7 @@ h1 {
   text-align: center;  
 }
 
-.footer-image {
+.footer__image {
     height: 30%;
     width: 30%;
 }
