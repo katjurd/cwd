@@ -34,6 +34,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    align-content: center;
+    color:rgb(0, 95, 163);
+    text-decoration-color: black;
+}
+
 .sub-heading {
     text-align: center;
     justify-content: center;
@@ -65,15 +71,9 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  padding: 10px;
-  text-align: center;
+  padding-right: 1rem;
+  text-align: right;
   border: 2px solid white;
-}
-
-.header {
-    text-align: center;
-    border-radius: 5px;
-    padding: 15px
 }
 
 .header__image {
