@@ -73,6 +73,10 @@ h1 {
   text-align: center;  
 }
 
+.footer-image {
+    height: 100px;
+    width: 100px;
+}
 .menu-link {
     padding-bottom: 3rem;
 }
