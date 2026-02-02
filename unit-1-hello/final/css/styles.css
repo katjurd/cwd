@@ -67,10 +67,13 @@ h1 {
 
 .container div.menu {
   grid-area: menu;
+  text-align: center;
 }
 
 .container div.content {
   grid-area: content;
+  display: block;
+  text-align: center;
 }
 
 .container div.footer {
@@ -81,7 +84,6 @@ h1 {
 .footer__image {
     height: 30%;
     width: 30%;
-}
-.menu-link {
-    padding-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
 }
