@@ -53,12 +53,12 @@ h1 {
   background-color: rgb(191, 148, 231);
 }
 
-.containers div.left-container {
+div.left-container {
   background-color: rgb(191, 148, 231);
   border: 2px solid white;
 }
 
-.containers div.right-container {
+div.right-container {
   background-color: rgb(191, 148, 231);
   border: 2px solid white;
 }
