@@ -96,8 +96,6 @@ h2 {
 }
 
 .footer__image {
-    height: 30%;
-    width: 30%;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
+    width: 75%;
 }
