@@ -42,7 +42,7 @@ h1 {
 }
 
 .container {
-  display: grid;
+  display: flex;
   grid-template-areas:
     "header header"
     "menu content"
@@ -52,14 +52,11 @@ h1 {
   grid-gap: 20px;
 }
 
-.left-container {
-  background-color: rgb(191, 148, 231);
-  border: 2px solid white;
-}
-
-.right-container {
-  background-color: rgb(191, 148, 231);
-  border: 2px solid white;
+.left-container, .right-container {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid white;
+    background-color: rgb(191, 148, 231);
 }
 
 .container div.header {
