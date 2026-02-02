@@ -50,6 +50,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   grid-gap: 20px;
+  grid-auto-rows: .005fr;
 }
 
 .left-container, .right-container {
@@ -57,6 +58,7 @@ h1 {
     padding: 1rem;
     border: 2px solid white;
     background-color: rgb(191, 148, 231);
+    margin-bottom: 5rem;
 }
 
 .container div.header {
