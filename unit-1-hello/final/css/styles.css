@@ -50,11 +50,18 @@ h1 {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   grid-gap: 20px;
+  background-color: rgb(191, 148, 231);
+
 }
 
-.container div {
+.containers div.left-container {
   background-color: rgb(191, 148, 231);
-  padding: 10px;
+  border: 2px solid white;
+}
+
+.containers div.right-container {
+  background-color: rgb(191, 148, 231);
+  border: 2px solid white;
 }
 
 .container div.header {
