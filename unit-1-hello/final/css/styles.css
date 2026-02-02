@@ -62,14 +62,23 @@ h1 {
 }
 
 .container div.header {
-  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
   text-align: center;
   border: 2px solid white;
 }
 
+.header {
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px
+}
 .container div.menu {
   grid-area: menu;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .container div.content {
