@@ -61,7 +61,6 @@ h2 {
 .left-container, .right-container {
     flex: 1;
     padding: 1rem;
-    border: 2px solid white;
     background-color: rgb(191, 148, 231);
     margin-bottom: 5rem;
 }
