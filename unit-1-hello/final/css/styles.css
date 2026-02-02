@@ -10,9 +10,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(206, 153, 255);
+    background-color: rgb(191, 148, 231);
     padding: 10px 20px;
     margin-bottom: 60px;
+    border: 2px solid white;
 }
 
 .logo-container {
@@ -47,17 +48,17 @@ h1 {
     "menu content"
     "footer footer";
   grid-template-columns: 1fr 3fr;
-  background-color: rgb(120, 190, 203);
 }
 
 .container div {
-  background-color: white;
+  background-color: rgb(191, 148, 231);
   padding: 10px;
 }
 
 .container div.header {
   grid-area: header;
   text-align: center;
+  border: 2px solid white;
 }
 
 .container div.menu {
