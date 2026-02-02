@@ -1,6 +1,5 @@
 .body {
     background-image: url('/../cwd/unit-1-hello/assets/galaxy-bg.jpg');
-    background-color: rgb(97, 9, 152);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,8 +15,7 @@
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
+    display: contents;
     text-decoration: none;
     color: inherit;
     gap: 15px;
