@@ -6,7 +6,7 @@
 
 	<!-- 
 	About this page:
-		It is no secret that the news cycle lately has been nothing but negative, but despite that there are still positive things, offbeat things, funny things, strange things happening out there. For my site, I wanted to highlight a variety of headlines that could fall into any of those categories. 		It is no secret that the news cycle lately has been nothing but negative, but despite that there are still positive things, offbeat things, funny things, strange things happening out there. For my site, I wanted to highlight a variety of headlines that could fall into any of those categories. 
+		It is no secret that the news cycle lately has been nothing but negative, but despite that there are still positive things, offbeat things, funny things, strange things happening out there. For my site, I wanted to highlight a variety of headlines that could fall into any of those categories.
 	-->
 
 	<title>Fake News</title>
@@ -18,6 +18,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
   	<style>
   		body {
@@ -40,7 +41,12 @@
 
   		.col-6 {
   			border: 1px solid black;
+        height: 30rem;
   		}
+
+      .col-md-2 {
+        border: 1px solid black;
+      }
 
   		.carousel-inner {
   			padding-top: 1.5rem;
@@ -59,11 +65,13 @@
   			text-align: center;
   			height: 5rem;
   			padding-top: 1rem;
+        justify-content: space-between;
   		}
 
   		.left-header {
   			text-align: left;
   			padding-left: 4rem;
+        margin-bottom: 1rem;
   		}
 
   		.center-header,
@@ -87,10 +95,35 @@
   		}
 
   		.article-text,
-  		.carousel-caption {
+  		.carousel-caption, 
+      p {
   			margin-top: 1.5rem;
   			margin-bottom: 1rem;
+        font-family: "Noticia Text", serif;
   		}
+
+      .carousel-caption {
+        font-weight: 700;
+      }
+
+      .right-header {
+        padding-right: 2.5rem;
+      }
+
+      .update-alert {
+        color: red;
+        font-weight: 500;
+        font-family: "Noticia Text", serif;
+      }
+
+      .carousel-heading {
+        padding-top: 7rem;
+      }
+
+      .carousel-inner {
+        margin-top: 6rem;
+        margin-left: 1.5rem;
+      }
 
   	</style>
 
@@ -105,7 +138,7 @@
 		The Kat Times
 	</div>
   <div class="right-header">
-    <img src="assets/kat_times_logo.png" class ="d-block w-50 mx-auto" alt="The Kat Times Logo">
+    <img src="assets/kat_times_logo.png" class ="img-fluid"  style="max-width: 40px;" alt="The Kat Times Logo">
   </div>
 </div>
 
@@ -117,13 +150,14 @@
       <p class="article-text">Grandson of the inventor of Reese's Peanut Butter Cups accuses Hershey of stealing their recipe.</p>
     </div>
     <div class="col-6">
-      <h1><b>BREAKING NEWS! SPIDER-MAN IS BACK!</b></h1>
-      <img src="assets/spiderman.jpg" class="d-block w-50 mx-auto" alt="Spiderman">
+      <h1>BREAKING NEWS! SPIDER-MAN IS BACK!</h1>
+      <img src="assets/spiderman.jpg" class="img-fluid w-25" alt="Spiderman">
       <p class="article-text">Since 2021, we've been missing the friendly neighborhood spiderman. Now he's back and better than ever.</p>
+      <div class="update-alert">>> Updated 5 min ago</div>
     </div>
     <div class="col">
       <h1>Lost cat reunited with family after 5 years.</h1>
-      <img src="assets/Placeholder.png" class="d-block w-50 mx-auto" alt="Image 1">
+      <img src="assets/cats-in-love.jpg" class="d-block w-50 mx-auto" alt="Image 1">
       <p class="article-text">Read all about how this cat fell in love with the cat next door, and left his family behind, until their heartfelt reunion.</p>
     </div>
   </div>
@@ -138,32 +172,39 @@
   <div class="row">
     <div class="col">
       <h1>Girl loses her favorite pen, and gains a husband.</h1>
-      <img src="assets/Placeholder.png" class="d-block w-50 mx-auto" alt="Image 1">
+      <img src="assets/wedding.jpg" class="d-block w-50 mx-auto" alt="Image 1">
       <p class="article-text">A family heirloom pen leads to a classic meet-cute that stuns boy and girl.</p>
     </div>
     <div class="col-md-2">
-    		<p class="center-text">Center.</p>
+    		<p class="center-text">Subscribe to this newsletter!</p>
     	</div>
     <div class="col d-flex justify-content-center">
+      <h1 class="carousel-heading">Kat's Korner</h1>
       <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/Placeholder.png" class="d-block w-50 mx-auto" alt="Image 1">
+      <img src="assets/tuna-melt.jpg" class="d-block w-50 mx-auto" alt="Image 1">
       <div class="carousel-caption">
       	The Recipe of the Day
       </div>
+      <p>A classic sandwich - the tuna melt.</p>
+      <p>Pair this with a cold, crisp Dr. Pepper and barbeque chips for a afternoon delight.</p>
     </div>
     <div class="carousel-item">
-      <img src="assets/Placeholder.png" class="d-block w-50 mx-auto" alt="Image 2">
-      <div class="carousel-caption">
-      	The Workout of the Day
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/Placeholder.png" class="d-block w-50 mx-auto" alt="Image 3">
+      <img src="assets/chaka-khan.jpg" class="d-block w-50 mx-auto" alt="Image 2">
       <div class="carousel-caption">
       	The Song of the Day
       </div>
+      <p>I'm Every Woman by Chaka Khan</p>
+        <p>Blast this song when you need an energy boost in your day.</p>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/obaa.jpg" class="d-block w-50 mx-auto" alt="Image 3">
+      <div class="carousel-caption">
+      	The Movie of the Day
+      </div>
+      <p>One Battle After Another</p>
+      <p>The movie equivalent of a roller coaster that you'll want to ride again and again.</p>
     </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
