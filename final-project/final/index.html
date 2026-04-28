@@ -4,12 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kat Loves Drag Race</title>
+
+    <!-- Bootstrap Implementation -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Stylesheet and Google Fonts -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="header-container"> // update to use Bootstrap
-        <img class="header-image" src ="">
-        <h1 class="header">Waddup world</h1>
-        <img class="header-image" src ="">
+    <!-- Header -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 d-flex">
+                <img class="header-image" src ="assets/rupaul-header.png" alt="Rupaul">
+                <h1 class="header">YOU'RE A WINNER BABY!</h1>
+            </div>
+            <div class="col-md-4 d-flex">
+                <img class="header-image-right" src ="assets/drag-race-logo.png" alt="Rupaul's Drag Race Logo"> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <p>Rupaul's Drag Race is a reality TV show that has been around since 2009, and has skyrocketed in popularity and success, both nationally and internationally, since its humble beginnings.</p>
+                <p>This show has propelled the fame and recognition of drag queens across the nation, with various spinoffs including Rupaul's Drag Race All Stars, Rupaul's Drag Race UK, Australia, New Zealand, and more.</p>
+                <p>This page is dedicated to analyzing the stats of each winner of Rupaul's Drag Race across all seasons, from Season 1 to Season 14, to see who is <i>the</i> winner of all winners.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="flourish-embed flourish-chart" data-src="visualisation/28725560">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                <noscript><img src="https://public.flourish.studio/visualisation/28725560/thumbnail" width="100%" alt="chart visualization" />
+                </noscript>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Explanation -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <p>There are various factors that would prevent this dataset from being perfect, as numbers can paint an accurate picture, but not tell the full story. For example, there are shorter seasons which would make the numbers look worse (See Bob the Drag Queen in a shortened season. Bob was only in the bottom once, but this is represented at 12% due to less episodes.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

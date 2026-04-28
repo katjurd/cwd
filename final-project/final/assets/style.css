@@ -1,11 +1,29 @@
 body {
-    background-color: antiquewhite;
+    background-color: #fffcfe;
+    font-family: "Merriweather", serif;
 }
 
 .header {
     text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+.header:hover {
+    color: hotpink;
 }
 
 .header-image {
-    height: 20%;
+    height: 18rem;
+    width: auto;
+}
+
+.header-image-right {
+    height: 10rem;
+    margin: auto;
+}
+
+.col-md-8, .col-md-4 {
+    margin-top: 1rem;
+    border: 1px solid black;
 }
