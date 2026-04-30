@@ -1,17 +1,41 @@
-body {
-    background-color: #fffcfe;
-    font-family: "Merriweather", serif;
+/* Variables */
+/* This is something I used in one of my CS classes and decided to incorporate here. */
+:root {
+    --pink:       #D4537E;
+    --pink-light: #FBEAF0;
+    --pink-mid:   #993556;
+    --pink-dark:  #4B1528;
+    --gold:       #BA7517;
+    --gold-light: #FAEEDA;
+    --gold-mid:   #854F0B;
+    --bg:         #fffaf8;
+    --text-dark:  #1a1a1a;
+    --text-mid:   #4a4a4a;
+    --text-muted: #888888;
+    --border:     rgba(212, 83, 126, 0.18);
 }
+
+
+body {
+    background-color: var(--bg);
+    font-family: "Merriweather", serif;
+    color: var(--text-dark);
+    line-height: 1.75;
+}
+
 
 .header {
     text-align: center;
     align-content: center;
     margin: auto;
     font-size: 5rem;
+    color: var(--pink-dark);
+    line-height: 1.1;
 }
 
 .header:hover {
-    color: hotpink;
+    color: var(--pink);
+    transition: color 0.25s ease;
 }
 
 .header-image {
@@ -24,7 +48,117 @@ body {
     margin: auto;
 }
 
-.col-md-8, .col-md-4 {
+.col-md-8,
+.col-md-4 {
     margin-top: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: var(--pink-light);
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    color: var(--pink-dark);
+    font-weight: 700;
+}
+
+h5 {
+    color: var(--gold-mid);
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+p {
+    color: var(--text-mid);
+}
+
+em {
+    color: var(--pink-mid);
+    font-style: italic;
+}
+
+strong {
+    color: var(--text-dark);
+}
+
+.card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 24px rgba(212, 83, 126, 0.12);
+    transform: translateY(-2px);
+}
+
+.card-title {
+    color: var(--pink-dark);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card-text {
+    color: var(--text-mid);
+}
+
+.badge.bg-secondary {
+    background-color: var(--pink-light) !important;
+    color: var(--pink-mid) !important;
+    font-weight: 500;
+    font-size: 0.7rem;
+    border: 1px solid var(--border);
+}
+
+.sparkle-divider,
+.col-4.mx-auto {
+    padding: 0.5rem 0;
+}
+
+blockquote {
+    border-left: 3px solid var(--pink);
+    background-color: var(--pink-light);
+    padding: 0.75rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5rem 0;
+    color: var(--pink-mid);
+    font-style: italic;
+}
+
+.verdict-section {
+    background: linear-gradient(135deg, var(--pink-dark) 0%, var(--pink-mid) 100%);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-top: 1rem;
+}
+
+.verdict-section p,
+.verdict-section h2 {
+    color: #fff;
+}
+
+.verdict-section strong {
+    color: var(--gold-light);
+}
+
+.col-md-6 h5::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--pink);
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 2.5rem;
+    }
+
+    .header-image {
+        height: 10rem;
+    }
 }
